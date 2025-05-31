@@ -1,4 +1,4 @@
-local ServerUI: table = {}
+local ServerUI = {}
 
 local TweenService: TweenService = game:GetService("TweenService")
 local UserInputService: UserInputService = game:GetService("UserInputService")
