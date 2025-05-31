@@ -14,7 +14,7 @@ local Banner = {
 }
 
 local Window = Env:Window({
-	Title = "Nong Khaw",
+	Title = "Seu Projeto",
 	Desc = "- Project"
 })
 
