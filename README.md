@@ -4,7 +4,7 @@ Documentação oficial da biblioteca de interface "NongkhawKawaii-UI".
 
 ## Inicialização da Biblioteca
 ```lua
-local Env = loadstring(game:HttpGet("https://raw.githubusercontent.com/MerrySubs4t/96soul/refs/heads/main/Utilities/NongkhawKawaii-UI.luau", true))()
+local Env = loadstring(game:HttpGet("https://raw.githubusercontent.com/ServerSad/tes/refs/heads/main/Utilities/Server-UI.luau", true))()
 ```
 
 ## Criando uma Janela
