@@ -1,4 +1,4 @@
-# NongkhawKawaii-UI Documentation
+# Server-UI Documentation
 
 Documentação oficial da biblioteca de interface "NongkhawKawaii-UI".
 
