@@ -165,7 +165,7 @@ Khaw.Name = "Khaw"
 Khaw.Parent = not game:GetService("RunService"):IsStudio() and game:GetService("CoreGui") or game:GetService("Players").LocalPlayer.PlayerGui
 Khaw.ZIndexBehavior = Enum.ZIndexBehavior.Global
 
-function Env:Window(meta)
+function ServerUI:Window(meta)
 	local Title = meta.Title or "Title"
 	local Desc = meta.Desc or "Desc"
 	local Logo = meta.Logo or 128185233852701
@@ -560,9 +560,9 @@ function Env:Window(meta)
 		Return.Visible = false
 	end)
 
-	Env.Tabs = {}
+	ServerUI.Tabs = {}
 
-	function Env.Tabs:Add(meta)
+	function ServerUI.Tabs:Add(meta)
 		local Addtab_1 = Instance.new("Frame")
 		local Banner_1 = Instance.new("ImageLabel")
 		local UICorner_2 = Instance.new("UICorner")
@@ -809,9 +809,9 @@ function Env:Window(meta)
 			end
 		end
 
-		Env.Section = {}
+		ServerUI.Section = {}
 
-		function Env.Section:Section(meta)
+		function ServerUI.Section:Section(meta)
 
 			local Title = meta.Title or "Section"
 			local Side = meta.Side or "l"
@@ -873,9 +873,9 @@ function Env:Window(meta)
 				Section_1.Size = UDim2.new(1, 0, 0, UIListLayout_4.AbsoluteContentSize.Y + 15)
 			end)
 
-			Env._Class = {}
+			ServerUI._Class = {}
 
-			function Env._Class:Button(meta)
+			function ServerUI._Class:Button(meta)
 
 				local Title = meta.Title
 				local Desc = meta.Desc or nil
@@ -1103,7 +1103,7 @@ function Env:Window(meta)
 				end
 			end
 
-			function Env._Class:ThumnailsImage(meta)
+			function ServerUI._Class:ThumnailsImage(meta)
 				local Banner = meta.Banner
 				local Y = meta.SizeY or 150
 
@@ -1150,7 +1150,7 @@ function Env:Window(meta)
 				end
 			end
 
-			function Env._Class:Label(meta)
+			function ServerUI._Class:Label(meta)
 
 				local Title = meta.Title
 				local Side = meta.Side
@@ -1179,7 +1179,7 @@ function Env:Window(meta)
 				return Index
 			end
 
-			function Env._Class:Line()
+			function ServerUI._Class:Line()
 				local Line_2 = Instance.new("Frame")
 				local UIGradient_2 = Instance.new("UIGradient")
 
@@ -1204,7 +1204,7 @@ function Env:Window(meta)
 				return Index
 			end
 
-			function Env._Class:Discord(Link)
+			function ServerUI._Class:Discord(Link)
 
 				local Discord = Instance.new("Frame")
 				local Title_1 = Instance.new("TextLabel")
@@ -1330,7 +1330,7 @@ function Env:Window(meta)
 				end)
 			end
 			
-			function Env._Class:Icon(meta)
+			function ServerUI._Class:Icon(meta)
 				
 				local Icon = meta.Icon
 				local Title = meta.Title
@@ -1419,7 +1419,7 @@ function Env:Window(meta)
 				
 			end
 
-			function Env._Class:Toggle(meta)
+			function ServerUI._Class:Toggle(meta)
 				local Title = meta.Title
 				local Desc = meta.Desc
 				local Icon = meta.Icon or nil
@@ -1852,7 +1852,7 @@ function Env:Window(meta)
 				end 
 			end
 
-			function Env._Class:Paragarp(meta)
+			function ServerUI._Class:Paragarp(meta)
 				local Title = meta.Title
 				local Desc = meta.Desc
 
@@ -1971,7 +1971,7 @@ function Env:Window(meta)
 				return Index
 			end
 
-			function Env._Class:Textbox(meta)
+			function ServerUI._Class:Textbox(meta)
 				
 				local Value = meta.Value or "Example"
 				local PlaceHolder = meta.PlaceHolder or "Place"
@@ -2089,7 +2089,7 @@ function Env:Window(meta)
 				return Index
 			end
 
-			function Env._Class:Slider(info)
+			function ServerUI._Class:Slider(info)
 				local Title = info.Title
 				local Desc = info.Desc
 				local Min = info.Min or 0
@@ -2290,7 +2290,7 @@ function Env:Window(meta)
 				return NewValue
 			end
 
-			function Env._Class:Dropdown(info)
+			function ServerUI._Class:Dropdown(info)
 				local Title = info.Title
 				local List = info.List
 				local Value = info.Value
@@ -2896,7 +2896,7 @@ function Env:Window(meta)
 				return itemslist
 			end
 
-			function Env._Class:Keybind(info)
+			function ServerUI._Class:Keybind(info)
 				local Title = info.Title
 				local Key = info.Key or Enum.KeyCode.Q
 				local Value = info.Value or false
@@ -3078,13 +3078,13 @@ function Env:Window(meta)
 				end)
 			end
 
-			return Env._Class
+			return ServerUI._Class
 		end
 
-		return Env.Section
+		return ServerUI.Section
 	end
 
-	return Env.Tabs
+	return ServerUI.Tabs
 end
 
-return Env
+return ServerUI
