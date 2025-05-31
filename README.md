@@ -1,4 +1,3 @@
---[[
 # NongkhawKawaii-UI Documentation
 
 Documentação oficial da biblioteca de interface "NongkhawKawaii-UI".
@@ -140,4 +139,3 @@ Section:Paragarp({
     Desc = "Texto longo aqui explicando algo ou informando atualizações..."
 })
 ```
-]]
