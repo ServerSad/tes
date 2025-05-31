@@ -1,4 +1,4 @@
-local Env: table = {}
+local ServerUI: table = {}
 
 local TweenService: TweenService = game:GetService("TweenService")
 local UserInputService: UserInputService = game:GetService("UserInputService")
