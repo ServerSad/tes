@@ -570,7 +570,7 @@ function ServerUI:Window(meta)
 
 		local Title = meta.Title
 		local Desc = meta.Desc
-		local Banner = meta.Banner
+		local Banner = meta.Banner or 86844430363710
 
 		Addtab_1.Name = "Addtab"
 		Addtab_1.Parent = ScrollingFrame_1
@@ -1104,7 +1104,7 @@ function ServerUI:Window(meta)
 			end
 
 			function ServerUI._Class:ThumnailsImage(meta)
-				local Banner = meta.Banner
+				local Banner = meta.Banner or 86844430363710
 				local Y = meta.SizeY or 150
 
 				local Image = Instance.new("ImageLabel")
