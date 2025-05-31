@@ -285,23 +285,3 @@ Notes:AddParagraph({
 	Title = "Duration",
 	Content = "Disabling Duration will make notification last forever until you close it.\n\nSame goes by enabling it, it will last as you set the duration."
 })
---                                         ,----,
---  ,--,     ,--,        ,----,          .'   .`|
---  |'. \   / .`|      .'   .' \      .'   .'   ;          ,--,
---  ; \ `\ /' / ;    ,----,'    |   ,---, '    .'        ,'_ /|
---  `. \  /  / .'    |    :  .  ;   |   :     ./    .--. |  | :
---   \  \/  / ./     ;    |.'  /    ;   | .'  /   ,'_ /| :  . |
---    \  \.'  /      `----'/  ;     `---' /  ;    |  ' | |  . .
---     \  ;  ;         /  ;  /        /  ;  /     |  | ' |  | |
---    / \  \  \       ;  /  /-,      ;  /  /--,   :  | | :  ' ;
---   ;  /\  \  \     /  /  /.`|     /  /  / .`|   |  ; ' |  | '
--- ./__;  \  ;  \  ./__;      :   ./__;       :   :  | : ;  ; |
--- |   : / \  \  ; |   :    .'    |   :     .'    '  :  `--'   \
--- ;   |/   \  ' | ;   | .'       ;   |  .'       :  ,      .-./
--- `---'     `--`  `---'          `---'            `--`----'
-
--- ngaku ngaku yatim ngentot di kasi gratis ngelunjak memek
--- 03-02-2025 > Changed UI Color Purple to blue gradient
--- Revolution : Ancestral > Stellar Create by x2zu
--- don't be stupid and be smart just give credit @x2zu
--- Discord Server x2zu best skid discord open source script everrrrrrrrrrrrrr : https://discord.gg/FmMuvkaWvG / discord.gg/x2zu Owner: @x2zu muhauhauhauhua
